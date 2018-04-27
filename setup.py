@@ -14,7 +14,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'Django>=1.8',
-        'channels<=1.1.8.1',
+        'channels~=2.0',
         'djangorestframework>=3.0'
     ],
     classifiers=[
